@@ -58,19 +58,17 @@ h1{
 
 
 .intro-block {
-  background-color: #303030;
+  background-color: rgba(66, 66, 66, 0.8);
   color: #ffffff;
   margin: 0 auto;
   margin-top: 260px;
   max-width: 900px;
   padding: 30px 30px;
-  padding-bottom: 0px;
 }
 
 .intro-block a{
   display: inline-block;
 }
-
 
 
 
@@ -85,8 +83,13 @@ h1{
   color: white;
 }
 
+.chalets-header h1 {
+  font-family: Arial Bold;
+}
+
 .chalets-key-info h2 {
   color: white;
+  font-family: Arial Bold;
 }
 
 .chalets-key-info {
@@ -107,6 +110,9 @@ h1{
   padding: 20px;
 }
 
+.chalet-info h2 {
+  font-family: Arial Bold;
+}
 
 .chalet-images {
   flex: 1;
@@ -191,10 +197,12 @@ h1{
 
 .gallery-header {
   color: white;
+  font-family: Arial Bold;
 }
 
 .gallery-page {
-  background: black ;
+  background: black url(img/mountain_view_dark.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .gallery img {
